@@ -14,12 +14,12 @@ public class experimentalPlane extends Plane{
         this.classificationLevel = classificationLevel;
     }
 
-    public ClassificationLevel getClassificationLevel(){
+    public ClassificationLevel GetClassificationLevel(){
         return classificationLevel;
     }
 
-    public void setClassificationLevel(ClassificationLevel classificationLevel){
-        this.classificationLevel = classificationLevel;
+    public void SetClassificationLevel(ClassificationLevel _classificationLevel){
+        classificationLevel = _classificationLevel;
     }
 
     @Override
